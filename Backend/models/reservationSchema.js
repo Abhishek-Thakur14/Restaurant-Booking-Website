@@ -30,8 +30,8 @@ const reservationSchema = new mongoose.Schema({
   phone: {
     type: String,
     required: true,
-    minLength: [10, "Phone number must contain 11 Digits."],
-    maxLength: [10, "Phone number must contain 11 Digits."],
+    minLength: [10, "Phone number must contain 10 Digits."],
+    maxLength: [10, "Phone number must contain 10 Digits."],
   },
 });
 
