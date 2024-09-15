@@ -10,6 +10,10 @@
 ::-webkit-scrollbar{
   display: none;
 }
+html,body{
+  background: linear-gradient(to right,rgba(233, 206, 207, 0.594),rgb(167, 167, 214));
+}
+
 
 /********************** HERO SECTION COMPONENT STYLING **************************/
 /**********************************************************************************************************************/
@@ -24,6 +28,7 @@ nav {
   align-items: center;
   border-bottom-right-radius: 7px;
   border-bottom-left-radius: 7px;
+  /* font-weight: bolder; */
 }
 nav::after {
   content: "";
@@ -42,7 +47,9 @@ nav .logo {
 }
 nav .navLinks {
   flex: 2;
+ 
 }
+
 nav .navLinks {
   display: flex;
   justify-content: space-between;
@@ -56,7 +63,7 @@ nav .navLinks .links a {
   text-decoration: none;
   color: #555;
   font-size: 20px;
-  font-weight: 300;
+  font-weight: 800;
   letter-spacing: 1.4px;
 }
 nav .navLinks .links a:hover {
@@ -71,6 +78,10 @@ nav .menuBtn {
   border: 1px solid #333;
   border-radius: 20px;
   font-size: 16px;
+}
+
+.links{
+  font-weight: bolder;
 }
 nav .menuBtn:hover {
   color: #fff;
@@ -212,6 +223,7 @@ nav svg {
 .heroSection .container .banner .imageBox img {
   width: 300px;
   height: 385px;
+  border-radius: 15px;
 }
 .heroSection .container .banner:last-child .imageBox {
   text-align: end;
@@ -345,6 +357,9 @@ nav svg {
 }
 .about .container .banner img {
   width: 100%;
+}
+.wowAbout{
+  border-radius: 100%;
 }
 .heading {
   font-weight: 200;
@@ -861,17 +876,24 @@ footer .container .banner .right {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
+  background: linear-gradient(to right rgb(42, 23, 23), white,grey)
+  /* background: white; */
+  
 }
 .reservation .container {
   max-width: 1500px;
   min-width: 1500px;
   display: flex;
+  
 }
+
 .reservation .container .banner {
   width: 50%;
   padding: 50px;
+ 
+  
 }
-.reservation .container .banner .reservation_form_box {
+/* .reservation .container .banner .reservation_form_box {
   width: 400px;
   background: #fff;
   height: 100%;
@@ -879,6 +901,29 @@ footer .container .banner .right {
   box-shadow: -1px 0px 37px 0px rgba(152, 87, 191, 0.75);
   -webkit-box-shadow: -1px 0px 37px 0px rgba(152, 87, 191, 0.75);
   -moz-box-shadow: -1px 0px 37px 0px rgba(152, 87, 191, 0.75);
+  /* backdrop-filter: blur(15px);
+  background-color: red; */
+/* } */
+.reservation .container .banner .reservation_form_box {
+  width: 400px;
+  height: 100%;
+  padding: 20px;
+  /* background: rgba(255, 255, 255, 0.1); Slightly transparent white background */
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.3), /* Inner shadow */
+              -1px 0px 37px 0px rgba(152, 87, 191, 0.75); /* Outer shadow */
+  backdrop-filter: blur(15px); /* Glassmorphism effect */
+  border-radius: 10px; /* Optional: rounded corners for a more glassy look */
+  /* Adding border for better visual distinction */
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  /* Optional: For better text visibility */
+  color: #fff;
+  font-family: Arial, sans-serif;
+  background: white;
+}
+.hh{
+  /* border: 1px solid white; */
+  border-radius: 15px;
+  object-fit: cover;
 }
 .reservation .container .banner .reservation_form_box form div {
   display: flex;

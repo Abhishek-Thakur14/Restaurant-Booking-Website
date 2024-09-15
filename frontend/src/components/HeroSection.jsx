@@ -13,7 +13,7 @@ const HeroSection = () => {
           </div>
           <div className="combined_boxes">
             <div className="imageBox">
-              <img src="./hero1.png" alt="hero" />
+              <img  src="https://img.freepik.com/free-photo/pre-prepared-food-showcasing-ready-eat-delicious-meals-go_23-2151246075.jpg?ga=GA1.1.896222227.1726323347&semt=ais_hybrid" alt="hero" />
             </div>
             <div className="textAndLogo">
               <div className="textWithSvg">

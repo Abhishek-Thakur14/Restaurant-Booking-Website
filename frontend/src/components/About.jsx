@@ -28,7 +28,7 @@ const About = () => {
             </Link>
           </div>
           <div className="banner">
-            <img src="about.png" alt="about" />
+            <img className="wowAbout"src="https://img.freepik.com/premium-photo/indian-hindu-veg-thali-restaurant-style-complete-food-platter-lunch-dinner_960396-561371.jpg?ga=GA1.2.896222227.1726323347&semt=ais_hybrid" alt="about" />
           </div>
         </div>
       </section>
