@@ -6,10 +6,10 @@ export const dbConnection = () => {
       dbName: "Restaurant",
     })
     .then(() => {
-      console.log("Connected to database!");
+      console.log("Connected to w database!");
     })
     .catch((err) => {
-      console.log(`Some error occurred while connecting to database: ${err}`);
+      console.log(`Some error occured while connecing to database: ${err}`);
     });
 };
  

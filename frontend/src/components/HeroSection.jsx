@@ -9,7 +9,7 @@ const HeroSection = () => {
       <div className="container">
         <div className="banner">
           <div className="largeBox">
-            <h1 className="title">Delicious</h1>
+            <h1 className="title">Serving</h1>
           </div>
           <div className="combined_boxes">
             <div className="imageBox">
@@ -17,19 +17,19 @@ const HeroSection = () => {
             </div>
             <div className="textAndLogo">
               <div className="textWithSvg">
-                <h1 className="title">Food</h1>
+                <h1 className="title">Finest</h1>
                 <h1 className="title dishes_title">Dishes</h1>
                 <img src="./threelines.svg" alt="threelines" />
               </div>
-              <img className="logo" src="logo.svg" alt="logo" />
+              {/* <img className="logo" src="logo.svg" alt="logo" /> */}
             </div>
           </div>
         </div>
         <div className="banner">
           <div className="imageBox">
-            <img src="hero2.png" alt="hero" />
+            <img src="https://img.freepik.com/free-photo/nutritious-indian-dosa-assortment_23-2149086071.jpg?ga=GA1.2.896222227.1726323347&semt=ais_hybrid" alt="hero" />
           </div>
-          <h1 className="title dishes_title">Dishes</h1>
+          <h1 className="title dishes_title">Flavors</h1>
         </div>
       </div>
     </section>

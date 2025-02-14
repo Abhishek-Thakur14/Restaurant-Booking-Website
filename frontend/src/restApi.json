@@ -23,50 +23,50 @@
         "dishes": [
             {
                 "id": 1,
-                "image": "./dinner1.jpeg",
-                "title": "ROASTED LAMB RUMP",
+                "image": "https://img.freepik.com/free-photo/top-view-eid-al-fitr-celebration-with-delicious-food_23-2151205175.jpg?ga=GA1.2.896222227.1726323347&semt=ais_hybrid",
+                "title": "Biryani",
                 "category": "Dinner"
             },
             {
                 "id": 2,
-                "image": "./dinner2.png",
-                "title": "CITRUS CURED SALMON",
-                "category": "Dinner"
+                "image": "https://media.istockphoto.com/id/1306956291/photo/chole-bhature-or-chick-pea-curry-and-fried-puri-served-in-white-crockery-selective-focus.jpg?s=612x612&w=0&k=20&c=IGQa_P9UU3zYjz1AKCupXfjNhmFVdfordgiCcXOyQR0=",
+                "title": "Chhole Bhature",
+                "category": "Breakfast"
             },
             {
                 "id": 3,
-                "image": "./breakfast1.png",
-                "title": "PAN SEARED SEA BASS",
+                "image": "https://media.istockphoto.com/id/900257720/photo/methi-paratha-indian-flat-bread-using-fenugreek-leaves-selective-focus.jpg?s=612x612&w=0&k=20&c=Z-p0RJSU5zVLG2nMmlvZ2PTofXvbQNn2tSaSVXV4WaA=",
+                "title": "Aloo Parantha",
                 "category": "Breakfast"
             },
             {
                 "id": 4,
-                "image": "./dinner3.png",
-                "title": "STUFFED STRAWBERRY",
-                "category": "Dinner"
+                "image": "https://media.istockphoto.com/id/1569958950/photo/maharashtrian-snack-kothimbir-vadi.jpg?s=612x612&w=0&k=20&c=ozwRozA2ZScWsaMGk0U1Xz_CwkBWHBQC4TJUD0zEAd8=",
+                "title": "Paneer Tikka ",
+                "category": "Snacks"
             },
             {
                 "id": 5,
-                "image": "./lunch1.png",
-                "title": "BEEF BURGER MEAL",
+                "image": "https://img.freepik.com/premium-photo/delicioushomemadechickencurryinwhitebowl_730243-6173.jpg?ga=GA1.2.896222227.1726323347&semt=ais_hybrid",
+                "title": "Chicken Curry",
                 "category": "Lunch"
             },
             {
                 "id": 6,
-                "image": "./dinner4.png",
-                "title": "MUSSELS SOUP",
-                "category": "Dinner"
+                "image": "https://img.freepik.com/free-photo/high-angle-assortment-with-delicious-pakistan-meal_23-2148821538.jpg?ga=GA1.2.896222227.1726323347&semt=ais_hybrid",
+                "title": "Fish Curry",
+                "category": "Lunch"
             },
             {
                 "id": 7,
                 "image": "./dinner5.png",
-                "title": "ITALIAN SPAGHETTI",
+                "title": "Noodles",
                 "category": "Dinner"
             },
             {
                 "id": 8,
-                "image": "./dinner6.png",
-                "title": "GRILLED FISH",
+                "image": "https://img.freepik.com/free-photo/high-angle-pakistani-meal-with-meat_23-2148825108.jpg?ga=GA1.2.896222227.1726323347&semt=ais_hybrid",
+                "title": "Palak Paneer",
                 "category": "Dinner"
             }
         ],
@@ -74,25 +74,25 @@
             {
                 "id": 1,
                 "image": "./team_member_1.png",
-                "name": "JOHNATHAN TYLER",
+                "name": "Abhishek Kumar",
                 "designation": "Founder & Head Chef"
             },
             {
                 "id": 2,
                 "image": "./team_member_2.png",
-                "name": "WADE WARREN",
-                "designation": "Sous Chef"
+                "name": "Neeraj Walia",
+                "designation": "Main Chef"
             },
             {
                 "id": 3,
                 "image": "./team_member_3.png",
-                "name": "JHON DOE",
+                "name": "Kanishk Gandhi",
                 "designation": "Fast Food Chef"
             },
             {
                 "id": 4,
                 "image": "./team_member_4.png",
-                "name": "ALEX COAL",
+                "name": "Shivam Jaiswal",
                 "designation": "Senior Chef"
             }
         ],
